@@ -1,0 +1,29 @@
+$yellow: #f7e269;
+$red: #d47350;
+$blue:#517cb8;
+
+.circle-container {
+  height:300px;
+  width:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: $blue;
+}
+
+.outer-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:$blue;
+}
+
+.inner-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: $yellow;
+}
