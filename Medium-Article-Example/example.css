@@ -1,0 +1,27 @@
+.circle-container {
+  height:300px;
+  width:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#517cb8;
+}
+
+.inner-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #f7e269;
+}
+
+
+
